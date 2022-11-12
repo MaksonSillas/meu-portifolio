@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   display: flex;
-  width: 100vw;
   border-bottom: 1px solid var(--cinza);
   position: relative;
 
