@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const ContainerSectionSkills = styled.section`
+  margin-top: 25px;
+
   .div-container-section-skills {
     display: flex;
     flex-direction: column;
@@ -22,13 +24,13 @@ export const ContainerSectionSkills = styled.section`
   }
 
   .div-svgs {
-    padding-top: 10px;
+    padding: 10px 0;
     max-width: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
 
     img {
       width: 48px;
@@ -39,5 +41,9 @@ export const ContainerSectionSkills = styled.section`
       width: 100px;
       height: 33px;
     }
+  }
+
+  a {
+    color: var(--verde-1);
   }
 `;

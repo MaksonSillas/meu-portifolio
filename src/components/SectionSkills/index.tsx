@@ -11,13 +11,14 @@ import IconExpress from "../../assets/icon-express.svg";
 import IconGit from "../../assets/icon-git.svg";
 import IconDocker from "../../assets/icon-docker.svg";
 import IconGitHub from "../../assets/icon-github-1.svg";
+import IconFigma from "../../assets/icon-figma.svg";
 
 export function SectionSkills() {
   return (
-    <ContainerSectionSkills>
+    <ContainerSectionSkills id="skills">
       <div className="div-container-section-skills">
         <h2>Habilidades</h2>
-        <p>Algumas das tecnologias que eu mais utilizo</p>
+        <p>Algumas das tecnologias e ferramentas que eu mais utilizo</p>
         <div className="div-svgs">
           <img src={IconHtml} title="HTML5" alt="HTML5" />
           <img src={IconCss} title="CSS3" alt="CSS3" />
@@ -40,7 +41,20 @@ export function SectionSkills() {
           <img src={IconDocker} title="Docker" alt="Docker" />
           <img src={IconGit} title="Git" alt="Git" />
           <img src={IconGitHub} title="GitHub" alt="GitHub" />
+          <img src={IconFigma} title="Figma" alt="Figma" />
         </div>
+        <p>
+          Para acessar alguns dos meus projetos{" "}
+          <a
+            href="https://github.com/MaksonSillas"
+            target="_blanck"
+            rel="noopener noreferrer"
+            className="hover"
+          >
+            clique aqui{" "}
+          </a>
+          e navegue para o meu github.
+        </p>
       </div>
     </ContainerSectionSkills>
   );

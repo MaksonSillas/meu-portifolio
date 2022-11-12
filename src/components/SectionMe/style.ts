@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerSectionMe = styled.section`
-  padding: 10px 15px;
+  padding: 0px 15px;
 
   .div-container-section-me {
     display: flex;
@@ -46,5 +46,10 @@ export const ContainerSectionMe = styled.section`
     text-align: center;
     border-radius: 20px;
     max-width: 166px;
+
+    :hover {
+      background-color: var(--azul);
+      transition: 0.6s;
+    }
   }
 `;

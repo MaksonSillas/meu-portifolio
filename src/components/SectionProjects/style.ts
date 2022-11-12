@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerSectionProjects = styled.section`
-  padding-top: 20px;
+  margin-top: 25px;
 
   .div-container-section-projects {
     display: flex;

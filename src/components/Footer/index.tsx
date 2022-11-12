@@ -15,7 +15,7 @@ function copieEmail() {
 
 export function Footer() {
   return (
-    <ContainerFooter>
+    <ContainerFooter id="contacts">
       <div className="div-container-footer">
         <h2>Contatos</h2>
         <div className="div-contacs">

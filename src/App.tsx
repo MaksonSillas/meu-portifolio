@@ -1,7 +1,7 @@
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { SectionMe } from "./components/SectionMe";
-import { SectionProjects } from "./components/SectionProjects";
+// import { SectionProjects } from "./components/SectionProjects";
 import { SectionSkills } from "./components/SectionSkills";
 import Global from "./styles/Global";
 import { ToastContainer } from "react-toastify";
@@ -16,7 +16,7 @@ function App() {
       <main>
         <SectionMe />
         <SectionSkills />
-        <SectionProjects />
+        {/* <SectionProjects /> */}
       </main>
       <Footer />
     </>
