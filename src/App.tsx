@@ -1,5 +1,5 @@
-import { ContainerProjects } from "./components/ContainerProjects";
 import { Header } from "./components/Header";
+import { SectionMe } from "./components/SectionMe";
 import Global from "./styles/Global";
 
 function App() {
@@ -7,7 +7,9 @@ function App() {
     <>
       <Global />
       <Header />
-      <ContainerProjects />
+      <main>
+        <SectionMe />
+      </main>
     </>
   );
 }
