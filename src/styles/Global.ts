@@ -21,7 +21,22 @@ export default createGlobalStyle`
         font-family: 'Nunito', sans-serif;
     }
 
+    main{
+        padding-top: 110px;
+
+        @media (min-width: 700px) {
+            padding: 0;
+            margin-top: 25px;
+        }
+    }
+
     button{
         cursor: pointer;
+    }
+
+    .hover:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    color: var(--azul);
     }
 `;

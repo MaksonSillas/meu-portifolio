@@ -22,16 +22,24 @@ export function Header() {
         <nav className="nav-descktop">
           <ul className="ul-descktop">
             <li>
-              <a href="#">Home</a>
+              <a className="hover" href="#">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#">Habilidades</a>
+              <a className="hover" href="#skills">
+                Habilidades
+              </a>
             </li>
             <li>
-              <a href="#">Projetos</a>
+              <a className="hover" href="#projects">
+                Projetos
+              </a>
             </li>
             <li>
-              <a href="#">Contatos</a>
+              <a className="hover" href="#contacts">
+                Contatos
+              </a>
             </li>
           </ul>
         </nav>

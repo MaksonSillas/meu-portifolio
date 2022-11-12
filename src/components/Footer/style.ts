@@ -1,15 +1,19 @@
 import styled from "styled-components";
 
 export const ContainerFooter = styled.footer`
-  padding: 10px 0;
-  margin-top: 10px;
-  background-color: var(--cinza);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 
   .div-container-footer {
+    padding: 10px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10px;
+    width: 100%;
+    max-width: 900px;
+    border-top: 1px solid var(--cinza);
   }
 
   h2 {

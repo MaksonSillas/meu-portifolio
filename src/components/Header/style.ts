@@ -3,7 +3,16 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   display: flex;
   border-bottom: 1px solid var(--cinza);
-  position: relative;
+  position: fixed;
+  width: 100vw;
+  background-color: var(--branco);
+
+  .div-container {
+    width: 100%;
+    padding: 15px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
 
   .p-descktop {
     display: none;
@@ -15,11 +24,14 @@ export const HeaderContainer = styled.header`
 
   @media (min-width: 700px) {
     border-bottom: unset;
+    position: unset;
+    width: unset;
 
     .div-container {
       flex-direction: column;
       align-items: center;
       gap: 10px;
+      padding-bottom: 0;
     }
 
     .p-descktop {
@@ -68,17 +80,14 @@ export const HeaderContainer = styled.header`
     }
   }
 
-  .div-container {
-    width: 100%;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-  }
-
   img {
-    width: 3.5rem;
-    height: 100%;
+    width: 70px;
+
     border-radius: 100%;
+
+    @media (min-width: 700px) {
+      width: 200px;
+    }
   }
 
   button {

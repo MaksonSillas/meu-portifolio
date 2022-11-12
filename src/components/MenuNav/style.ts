@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const DivContainerNav = styled.div`
   background-color: var(--cinza);
@@ -8,7 +8,7 @@ export const DivContainerNav = styled.div`
   position: absolute;
   top: 100%;
   right: 0;
-  max-width: 160px;
+  width: 150px;
   padding: 10px;
   animation: navAnimation 0.5s;
 
