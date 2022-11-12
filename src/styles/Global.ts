@@ -6,8 +6,8 @@ export default createGlobalStyle`
         --branco: #ffffff;
         --cinza: #cdd4d4;
         --azul: #104d63;
-        --verde1: #8fa20d;
-        --verde2: #ade666;
+        --verde-1: #8fa20d;
+        --verde-2: #ade666;
 
     }
 
@@ -21,7 +21,22 @@ export default createGlobalStyle`
         font-family: 'Nunito', sans-serif;
     }
 
+    main{
+        padding-top: 110px;
+
+        @media (min-width: 700px) {
+            padding: 0;
+            margin-top: 25px;
+        }
+    }
+
     button{
         cursor: pointer;
+    }
+
+    .hover:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    color: var(--azul);
     }
 `;
