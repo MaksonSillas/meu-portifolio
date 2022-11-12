@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { SectionMe } from "./components/SectionMe";
+import { SectionProjects } from "./components/SectionProjects";
 import { SectionSkills } from "./components/SectionSkills";
 import Global from "./styles/Global";
 
@@ -11,6 +12,7 @@ function App() {
       <main>
         <SectionMe />
         <SectionSkills />
+        <SectionProjects />
       </main>
     </>
   );
