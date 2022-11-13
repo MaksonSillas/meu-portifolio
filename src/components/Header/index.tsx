@@ -1,6 +1,6 @@
 import { HeaderContainer } from "./style";
 import { useState } from "react";
-import foto from "../../assets/cinza.jpeg";
+import foto from "../../assets/profile-picture.png";
 import { TbMenu2 } from "react-icons/tb";
 import { MdClose } from "react-icons/md";
 import { MenuNav } from "../MenuNav";
@@ -31,11 +31,11 @@ export function Header() {
                 Habilidades
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="hover" href="#projects">
                 Projetos
               </a>
-            </li>
+            </li> */}
             <li>
               <a className="hover" href="#contacts">
                 Contatos
