@@ -38,7 +38,7 @@ export function SectionSkills() {
             alt="Express"
           />
           <img src={IconPostgresql} title="PostgreSQL" alt="PostgreSQL" />
-          <img src={IconDocker} title="Docker" alt="Docker" />
+          {/* <img src={IconDocker} title="Docker" alt="Docker" /> */}
           <img src={IconGit} title="Git" alt="Git" />
           <img src={IconGitHub} title="GitHub" alt="GitHub" />
           <img src={IconFigma} title="Figma" alt="Figma" />
