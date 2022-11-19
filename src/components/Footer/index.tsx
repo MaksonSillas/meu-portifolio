@@ -2,16 +2,7 @@ import { ContainerFooter } from "./style";
 import IconGmail from "../../assets/icon-gmail.svg";
 import IconLinkedin from "../../assets/icon-linkedin.svg";
 import IconGitHub from "../../assets/icon-g-i-t-h-u-b.svg";
-import { toast } from "react-toastify";
-
-function copieEmail() {
-  const email = "maksonsantoss4@gmail.com";
-  navigator.clipboard.writeText(email).then(() => {
-    toast.info("Email copiado para área de transferência", {
-      autoClose: 2000,
-    });
-  });
-}
+import { copieEmail } from "../../services";
 
 export function Footer() {
   return (

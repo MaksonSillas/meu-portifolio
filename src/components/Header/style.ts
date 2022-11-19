@@ -7,6 +7,23 @@ export const HeaderContainer = styled.header`
   width: 100vw;
   background-color: var(--branco);
 
+  figure {
+    width: max-content;
+    height: max-content;
+
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 100%;
+      object-fit: cover;
+
+      @media (min-width: 700px) {
+        width: 130px;
+        height: 130px;
+      }
+    }
+  }
+
   .div-container {
     width: 100%;
     padding: 15px 15px 10px 15px;
@@ -36,6 +53,7 @@ export const HeaderContainer = styled.header`
 
     .p-descktop {
       display: flex;
+      gap: 5px;
       align-items: center;
 
       img {
@@ -74,19 +92,8 @@ export const HeaderContainer = styled.header`
       }
     }
 
-    button,
-    svg {
+    .display-none {
       display: none;
-    }
-  }
-
-  img {
-    width: 70px;
-
-    border-radius: 100%;
-
-    @media (min-width: 700px) {
-      width: 200px;
     }
   }
 
