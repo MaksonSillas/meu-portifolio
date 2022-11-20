@@ -2,10 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     :root{
-        --preto: #101310;
+        --preto: #202324;
         --branco: #ffffff;
         --cinza: #cdd4d4;
-        --azul: #104d63;
+        --azul: #104d99;
         --verde-1: #8fa20d;
         --verde-2: #ade666;
 
@@ -21,8 +21,19 @@ export default createGlobalStyle`
         font-family: 'Nunito', sans-serif;
     }
 
+    .background-color-branco{
+        background-color: var(--branco);
+        padding: 2px 5px;
+        border-radius: 4px;
+    }
+
+    body{
+        background-color: var(--preto);
+        color: var(--branco);
+    }
+
     main{
-        padding-top: 110px;
+        padding-top: 125px;
 
         @media (min-width: 700px) {
             padding: 0;
@@ -35,8 +46,14 @@ export default createGlobalStyle`
     }
 
     .hover:hover {
-    transition: 0.5s;
+    transition: 2s;
     text-decoration: underline;
     color: var(--azul);
+    }
+
+    .hover-2:hover{
+        transition: 0.5s;
+        text-decoration: underline;
+        color: var(--verde-2);
     }
 `;

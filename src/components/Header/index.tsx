@@ -25,22 +25,22 @@ export function Header() {
         <nav className="nav-descktop">
           <ul className="ul-descktop">
             <li>
-              <a className="hover" href="#profile">
+              <a className="hover hover-3" href="#profile">
                 Home
               </a>
             </li>
             <li>
-              <a className="hover" href="#skills">
+              <a className="hover hover-3" href="#skills">
                 Habilidades
               </a>
             </li>
             {/* <li>
-              <a className="hover" href="#projects">
+              <a className="hover hover-3" href="#projects">
                 Projetos
               </a>
             </li> */}
             <li>
-              <a className="hover" href="#contacts">
+              <a className="hover hover-3" href="#contacts">
                 Contatos
               </a>
             </li>
@@ -50,7 +50,11 @@ export function Header() {
           className="display-none"
           onClick={() => setNavIsOpen(!navIsOpen)}
         >
-          {!navIsOpen ? <TbMenu2 size={30} /> : <MdClose size={30} />}
+          {!navIsOpen ? (
+            <TbMenu2 className="svg-branco" size={40} />
+          ) : (
+            <MdClose className="svg-branco" size={40} />
+          )}
         </button>
       </div>
       {navIsOpen && <MenuNav />}

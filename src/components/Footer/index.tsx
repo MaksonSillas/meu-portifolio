@@ -25,7 +25,11 @@ export function Footer() {
             target="_blanck"
             rel="noopener noreferrer"
           >
-            <img className="icon-width" src={IconGitHub} alt="GitHub" />
+            <img
+              className="icon-width background-color-branco"
+              src={IconGitHub}
+              alt="GitHub"
+            />
           </a>
         </div>
       </div>

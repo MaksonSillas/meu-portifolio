@@ -5,7 +5,21 @@ export const HeaderContainer = styled.header`
   border-bottom: 1px solid var(--cinza);
   position: fixed;
   width: 100vw;
-  background-color: var(--branco);
+  background-color: var(--preto);
+
+  .svg-branco {
+    color: var(--branco);
+    animation: myanimationmenu 1s;
+
+    @keyframes myanimationmenu {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
 
   figure {
     width: max-content;
@@ -16,6 +30,7 @@ export const HeaderContainer = styled.header`
       height: 80px;
       border-radius: 100%;
       object-fit: cover;
+      border: 3px solid var(--verde-1);
 
       @media (min-width: 700px) {
         width: 130px;
@@ -99,5 +114,10 @@ export const HeaderContainer = styled.header`
 
   button {
     background-color: unset;
+  }
+
+  .hover-3:hover {
+    transition: 1s;
+    color: var(--verde-2);
   }
 `;

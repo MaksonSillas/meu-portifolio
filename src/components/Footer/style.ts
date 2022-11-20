@@ -17,8 +17,8 @@ export const ContainerFooter = styled.footer`
   }
 
   h2 {
-    text-decoration: underline;
-    text-decoration-color: var(--verde-2);
+    /* text-decoration: underline;
+    text-decoration-color: var(--verde-2); */
     font-weight: 600;
     font-size: 28px;
   }

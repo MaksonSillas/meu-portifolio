@@ -11,8 +11,6 @@ export const ContainerSectionSkills = styled.section`
   }
 
   h2 {
-    text-decoration: underline;
-    text-decoration-color: var(--verde-2);
     font-weight: 600;
     font-size: 28px;
   }

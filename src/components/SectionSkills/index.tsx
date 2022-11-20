@@ -32,7 +32,7 @@ export function SectionSkills() {
           />
           <img src={IconNodeJs} title="NodeJs" alt="NodeJs" />
           <img
-            className="icon-express"
+            className="icon-express background-color-branco"
             title="Express"
             src={IconExpress}
             alt="Express"
@@ -40,7 +40,12 @@ export function SectionSkills() {
           <img src={IconPostgresql} title="PostgreSQL" alt="PostgreSQL" />
           {/* <img src={IconDocker} title="Docker" alt="Docker" /> */}
           <img src={IconGit} title="Git" alt="Git" />
-          <img src={IconGitHub} title="GitHub" alt="GitHub" />
+          <img
+            className="background-color-branco"
+            src={IconGitHub}
+            title="GitHub"
+            alt="GitHub"
+          />
           <img src={IconFigma} title="Figma" alt="Figma" />
         </div>
         <p>
@@ -49,7 +54,7 @@ export function SectionSkills() {
             href="https://github.com/MaksonSillas"
             target="_blanck"
             rel="noopener noreferrer"
-            className="hover"
+            className="hover-2"
           >
             clique aqui{" "}
           </a>
