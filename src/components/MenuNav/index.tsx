@@ -11,9 +11,9 @@ export function MenuNav() {
           <li>
             <a href="#skills">Habilidades</a>
           </li>
-          {/* <li>
+          <li>
             <a href="#projects">Projetos</a>
-          </li> */}
+          </li>
           <li>
             <a href="#contacts">Contatos</a>
           </li>

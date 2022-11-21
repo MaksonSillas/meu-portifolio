@@ -48,7 +48,8 @@ export const ContainerSectionMe = styled.section`
     max-width: 166px;
 
     :hover {
-      background-color: var(--azul);
+      background-color: var(--branco);
+      color: var(--verde-1);
       transition: 0.6s;
     }
   }

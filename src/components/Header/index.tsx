@@ -34,11 +34,11 @@ export function Header() {
                 Habilidades
               </a>
             </li>
-            {/* <li>
+            <li>
               <a className="hover hover-3" href="#projects">
                 Projetos
               </a>
-            </li> */}
+            </li>
             <li>
               <a className="hover hover-3" href="#contacts">
                 Contatos

@@ -9,9 +9,10 @@ import IconNodeJs from "../../assets/icon-node-js.svg";
 import IconPostgresql from "../../assets/icon-postgresql.svg";
 import IconExpress from "../../assets/icon-express.svg";
 import IconGit from "../../assets/icon-git.svg";
-import IconDocker from "../../assets/icon-docker.svg";
+// import IconDocker from "../../assets/icon-docker.svg";
 import IconGitHub from "../../assets/icon-github-1.svg";
 import IconFigma from "../../assets/icon-figma.svg";
+import IconPython from "../../assets/icon-python.svg";
 
 export function SectionSkills() {
   return (
@@ -38,6 +39,7 @@ export function SectionSkills() {
             alt="Express"
           />
           <img src={IconPostgresql} title="PostgreSQL" alt="PostgreSQL" />
+          <img src={IconPython} title="Python" alt="Python" />
           {/* <img src={IconDocker} title="Docker" alt="Docker" /> */}
           <img src={IconGit} title="Git" alt="Git" />
           <img
@@ -48,7 +50,7 @@ export function SectionSkills() {
           />
           <img src={IconFigma} title="Figma" alt="Figma" />
         </div>
-        <p>
+        {/* <p>
           Para acessar alguns dos meus projetos{" "}
           <a
             href="https://github.com/MaksonSillas"
@@ -59,7 +61,7 @@ export function SectionSkills() {
             clique aqui{" "}
           </a>
           e navegue para o meu github.
-        </p>
+        </p> */}
       </div>
     </ContainerSectionSkills>
   );
