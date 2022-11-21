@@ -3,11 +3,13 @@ import { createGlobalStyle } from "styled-components";
 export default createGlobalStyle`
     :root{
         --preto: #202324;
+        --preto-1: #101000;
         --branco: #ffffff;
         --cinza: #cdd4d4;
         --azul: #104d99;
-        --verde-1: #8fa20d;
-        --verde-2: #ade666;
+        --azul-1: #007fff;
+        --verde-1: #1fa20d;
+        --verde-2: #0fa200;
 
     }
 

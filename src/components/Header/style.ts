@@ -6,6 +6,7 @@ export const HeaderContainer = styled.header`
   position: fixed;
   width: 100vw;
   background-color: var(--preto);
+  z-index: 1;
 
   .svg-branco {
     color: var(--branco);
