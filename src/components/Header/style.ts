@@ -31,7 +31,7 @@ export const HeaderContainer = styled.header`
       height: 80px;
       border-radius: 100%;
       object-fit: cover;
-      border: 3px solid var(--verde-1);
+      border: 3px solid var(--cinza);
 
       @media (min-width: 700px) {
         width: 130px;
@@ -103,7 +103,7 @@ export const HeaderContainer = styled.header`
       }
 
       a {
-        color: var(--verde-1);
+        color: var(--branco);
         font-size: 20px;
       }
     }
